@@ -166,3 +166,6 @@ class DenseNet:
 
         x = layers.AveragePooling2D((2, 2), strides=(2, 2))(x)
         return x
+    """
+    https://www.google.com/url?q=https://github.com/cmasch/densenet/blob/master/densenet.py&sa=D&source=hangouts&ust=1642503097023000&usg=AOvVaw0qulMyz6k3wLHUsEDS8f4m
+    """
